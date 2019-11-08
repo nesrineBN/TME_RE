@@ -42,7 +42,6 @@ def plot_pop_pareto_front(pop,paretofront, title=""):
     print("Pareto: "+str(fitpareto))
     print("Population: "+str(fitpop))
 
-    ax.set_title(title)
-    plt.legend()
-    plt.show()
-
+ax.set_title(title)
+plt.legend()
+plt.show()
